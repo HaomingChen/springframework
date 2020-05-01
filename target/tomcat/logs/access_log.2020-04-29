@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:00:14:17 +0800] "GET /simpleframework/hello HTTP/1.1" 200 159 http-bio-8080-exec-1 644
+0:0:0:0:0:0:0:1 - - [29/Apr/2020:00:14:17 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
