@@ -35,3 +35,8 @@ Class类只有一个私有的构造函数,只有JVM能够创建Class
 类的实例 -> Class私有方法上的注释
 JVM中只有唯一一个和类相对应的Class对象来描述其
 类型信息
+
+7. 设计方法: 将service分为combine service和
+solo service, 能用solo service的方法解决的业务
+逻辑就用solo service方法, combine service作为
+solo service的组合。

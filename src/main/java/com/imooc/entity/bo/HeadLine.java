@@ -8,6 +8,7 @@ import java.sql.Date;
 @Getter
 @Setter
 public class HeadLine {
+
     private Long lineId;
     private String lineName;
     private String lineLink;
@@ -16,4 +17,5 @@ public class HeadLine {
     private Integer enableStatus;
     private Date createTime;
     private Date lastEditTime;
+
 }

@@ -10,7 +10,7 @@ import com.imooc.service.solo.ShopCategoryService;
 
 import java.util.List;
 
-public class HeadLineSHopCategoryServiceImpl implements HeadLineShopCategoryCombineService {
+public class HeadLineShopCategoryServiceImpl implements HeadLineShopCategoryCombineService {
 
     private HeadLineService headLineService;
     private ShopCategoryService shopCategoryService;
