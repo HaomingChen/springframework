@@ -40,3 +40,8 @@ JVM中只有唯一一个和类相对应的Class对象来描述其
 solo service, 能用solo service的方法解决的业务
 逻辑就用solo service方法, combine service作为
 solo service的组合。
+
+8. 注解@interface是继承了Annotation类
+9. 反射可以设置为Accessible为true因为Method
+Field类都继承了Accessible这个类,所以都可以
+将私有的Method，Field为true
